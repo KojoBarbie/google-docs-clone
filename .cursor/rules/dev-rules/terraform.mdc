@@ -1,0 +1,28 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+name: terraform-best-practices.mdc
+description: Best practices for Terraform configurations and AWS infrastructure
+globs: **/*.tf
+---
+
+- Use modules to promote reusability and maintainability
+- Implement proper state management with remote backends
+- Use variables and locals to reduce duplication
+- Follow naming conventions for resources and modules
+- Implement proper security practices (e.g., least privilege, encryption)
+
+---
+name: aws-best-practices.mdc
+description: Best practices for AWS services and architecture
+globs: **/*.tf
+---
+
+- Follow the Well-Architected Framework principles
+- Implement proper VPC and networking configurations
+- Use IAM roles and policies for fine-grained access control
+- Implement monitoring and logging with CloudWatch and CloudTrail
+- Use auto-scaling and load balancing for high availability
