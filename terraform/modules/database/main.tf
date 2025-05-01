@@ -25,10 +25,6 @@ resource "aws_dynamodb_table" "session" {
     name = "document_id"
     type = "S"
   }
-  attribute {
-    name = "expires_at"
-    type = "N"
-  }
 
   ttl {
     attribute_name = "expires_at"
