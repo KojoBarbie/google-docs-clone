@@ -1,0 +1,19 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# .terraformディレクトリ
+.terraform/
+
+# Terraform planファイル
+*.tfplan
+
+# 秘密情報やバックアップ
+*.backup
+*.bak
+
+# ロックファイル（必要に応じて）
+.terraform.lock.hcl 
